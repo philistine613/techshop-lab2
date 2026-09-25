@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop — Интернет-магазин техники</title>
+    <meta name="description" content="Ноутбуки, смартфоны и бытовая техника с доставкой по России. Гарантия 2 года.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TechShop</h1>
+            <p>Магазин качественной техники</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="cart.html">Корзина</a></li>
+            <li><a href="admin/login.html">Вход для сотрудников</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2>Добро пожаловать!</h2>
+        <p>У нас вы найдёте лучшие ноутбуки и смартфоны по выгодным ценам.</p>
+
+        <section>
+            <h3>Поиск по сайту</h3>
+            <form action="search.html" method="GET">
+                <input type="text" name="q" placeholder="Что ищем?">
+                <button type="submit">Найти</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Популярные категории</h3>
+            <ul>
+                <li><a href="catalog/laptops.html">Ноутбуки</a></li>
+                <li><a href="catalog/smartphones.html">Смартфоны</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Личный кабинет</h3>
+            <p><a href="user/profile.html">Мой профиль</a> | <a href="user/orders.html">Мои заказы</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 TechShop. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
